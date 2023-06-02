@@ -10,7 +10,7 @@ export function Navbar() {
       </div>
       <div className={classes.right}>
         <span>Login</span>
-        <button className="button">Sign Up</button>
+        <button className={`button ${classes.signUpButton}`}>Sign Up</button>
       </div>
     </div>
   );

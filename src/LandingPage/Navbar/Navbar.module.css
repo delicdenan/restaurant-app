@@ -1,12 +1,19 @@
 :root {
   --element-spacing: 1.5rem;
+  --text-color: #a53232;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: var(--element-spacing);
+  padding: var(--element-spacing);
+  background-color: white;
+}
+
+.navbar > * {
+  color: var(--text-color);
+  font-weight: bold;
 }
 
 .left {
@@ -29,4 +36,10 @@
 
 .logo {
   height: 2.7rem;
+}
+
+:global(.button).signUpButton {
+  background-color: #a53232;
+  color: white;
+  font-weight: bold;
 }
