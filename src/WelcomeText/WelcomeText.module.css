@@ -1,0 +1,31 @@
+div {
+  color: white;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.welcome {
+  font-size: 3rem;
+}
+
+.slogan {
+  font-size: 1.5rem;
+
+  margin-top: 2%;
+}
+
+.shortSlogan {
+  font-size: 2rem;
+
+  margin-top: 1%;
+}
+
+div:nth-child(3) {
+  color: black;
+  font-weight: bold;
+}

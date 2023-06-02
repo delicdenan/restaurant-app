@@ -1,0 +1,11 @@
+img {
+  padding: 0;
+  width: 17vw;
+  height: 17vw;
+  object-fit: cover;
+  margin-top: 100%;
+}
+
+div {
+  padding: 0;
+}

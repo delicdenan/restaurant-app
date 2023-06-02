@@ -36,10 +36,17 @@
 
 .logo {
   height: 2.7rem;
+  width: 3rem;
+  object-fit: contain;
+  margin-top: 0;
 }
 
 :global(.button).signUpButton {
   background-color: #a53232;
   color: white;
   font-weight: bold;
+}
+
+span:nth-child(2) {
+  font-size: 2rem;
 }
