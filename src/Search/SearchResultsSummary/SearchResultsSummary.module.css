@@ -1,0 +1,46 @@
+.smallContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.searchSummary {
+  padding: 2.5rem 0;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+}
+
+.searchSummary p {
+  color: rgb(147, 147, 147);
+}
+
+.filters {
+  display: flex;
+}
+
+.filters > * {
+  margin-right: 0.7rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(245, 245, 245);
+  border: 2px solid rgb(245, 245, 245);
+}
+
+.food {
+  max-height: 100%;
+  width: auto;
+  object-fit: contain;
+  margin: 0;
+}
+
+.foodContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

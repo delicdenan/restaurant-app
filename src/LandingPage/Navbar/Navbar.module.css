@@ -47,6 +47,6 @@
   font-weight: bold;
 }
 
-span:nth-child(2) {
+.logoText {
   font-size: 2rem;
 }

@@ -1,5 +1,12 @@
 import React from "react";
+import { SearchNavBar } from "../SearchNavBar/SearchNavBar";
+import { SearchResultsSummary } from "./SearchResultsSummary/SearchResultsSummary";
 
 export function Search() {
-  return <div>Search</div>;
+  return (
+    <div>
+      <SearchNavBar />
+      <SearchResultsSummary />
+    </div>
+  );
 }

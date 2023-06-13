@@ -10,7 +10,7 @@ export function LandingPage() {
     <div className={classes.landing}>
       <Navbar />
       <WelcomeText />
-      <SearchBar />
+      <SearchBar>Name or Location</SearchBar>
       <Gallery className={classes.gallery} />
     </div>
   );
