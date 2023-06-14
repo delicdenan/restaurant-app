@@ -1,4 +1,4 @@
-img {
+.cont img {
   padding: 0;
   width: 17vw;
   height: 17vw;
@@ -6,6 +6,6 @@ img {
   margin-top: 100%;
 }
 
-div {
+.cont {
   padding: 0;
 }

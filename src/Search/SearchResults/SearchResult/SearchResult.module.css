@@ -1,0 +1,10 @@
+.searchResult {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  width: 250px;
+  background-color: red;
+}
+
+.searchResult img {
+}

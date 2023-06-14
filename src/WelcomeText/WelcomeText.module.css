@@ -21,11 +21,7 @@
 
 .shortSlogan {
   font-size: 2rem;
-
-  margin-top: 1%;
-}
-
-div:nth-child(3) {
-  color: black;
   font-weight: bold;
+  margin-top: 1%;
+  color: black;
 }
