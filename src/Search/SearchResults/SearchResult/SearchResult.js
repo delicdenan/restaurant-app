@@ -16,7 +16,7 @@ export function SearchResult() {
           <button
             className={`button is-small is-danger ${classes.imageCoverButton2}`}
           >
-            Burger
+            Burgers
           </button>
         </div>
 
